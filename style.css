@@ -11,6 +11,8 @@ color: orange;
 section{
     display: flex;
     padding-left:10%;
+    padding-right:0%;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 160%;
@@ -19,7 +21,7 @@ section{
     
 }
 .half-width img{
-width:70%;
+width:80%;
 }
 .link-button{
     text-decoration: none;
@@ -34,12 +36,9 @@ width:70%;
     background-image:url(image/top-banner.png);
     background-repeat:no-repeat;
 }
-.dream{
-    width:100%;
-    padding-right:10%;
+.Dream-big{
+    background-image:url(image/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
 }
-.dream img{
-    width: 80%;
-}
-
 
